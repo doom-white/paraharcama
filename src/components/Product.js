@@ -1,5 +1,6 @@
 import React from "react";
 import { useProduct } from "../context/ProductContext";
+import Cart from "./Cart";
 
 const Product = ({ product }) => {
   const { money, total, cart, setCart } = useProduct();
@@ -51,7 +52,8 @@ const Product = ({ product }) => {
           Ekle
         </button>
       </div>
-      <style rxjs="true">{`
+      {/* <style rxjs="true">
+        {`
 
             .product-main{
                 border-bottom:1px solid gray;
@@ -60,8 +62,9 @@ const Product = ({ product }) => {
             .product-buttons button{
                 cursor:pointer;
             }
-                  
-      `}</style>
+                      
+          `}
+      </style> */}
     </div>
   );
 };

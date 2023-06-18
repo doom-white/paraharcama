@@ -17,12 +17,18 @@ const App = () => {
   }, [cart]);
 
   return (
-    <div>
+    <div className="container">
       <Header />
-      {products.map((p) => (
-        <Product key={p.id} product={p} />
-      ))}
-      <Cart />
+      <div className="product-cart">
+        <div className="product">
+          {products.map((p) => (
+            <Product key={p.id} product={p} />
+          ))}
+        </div>
+        <div className="cart">
+          <Cart />
+        </div>
+      </div>
     </div>
   );
 };
