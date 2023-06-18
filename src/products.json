@@ -2,46 +2,31 @@
   {
     "id": 1,
     "title": "Çikolata",
-    "price": 10
+    "price": 10,
+    "imgURL": "https://cdnsta.avansas.com/mnresize/900/-/urun/102251/ulker-caramio-karamel-dol-cikolata-55-gr-zoom-1.jpg"
   },
   {
     "id": 2,
     "title": "Soda",
-    "price": 15
+    "price": 15,
+    "imgURL": "https://joilezzetkosesi.com/images/urunler/buyuk/limonlu-soda1606133369_1.jpg"
   },
   {
     "id": 3,
     "title": "Meyve Suyu",
-    "price": 20
+    "price": 20,
+    "imgURL": "https://hancionline.com/wp-content/uploads/2020/04/meyve-suyu.jpg"
   },
   {
     "id": 4,
-    "title": "Gazoz",
-    "price": 30
+    "title": "Ayakkabı",
+    "price": 1200,
+    "imgURL": "https://ayb.akinoncdn.com/products/2022/12/26/2284822/042e1699-19e0-4fbc-bee6-eb9e1b20c916_size780x780_quality60_cropCenter.jpg"
   },
   {
     "id": 5,
-    "title": "Tost",
-    "price": 45
-  },
-  {
-    "id": 6,
-    "title": "Hamburger",
-    "price": 125
-  },
-  {
-    "id": 7,
-    "title": "Lahmacun",
-    "price": 40
-  },
-  {
-    "id": 8,
-    "title": "Ayakkabı",
-    "price": 1200
-  },
-  {
-    "id": 9,
     "title": "Telefon",
-    "price": 1500
+    "price": 4500,
+    "imgURL": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/apple/thumb/113155-1-1_small.jpg"
   }
 ]

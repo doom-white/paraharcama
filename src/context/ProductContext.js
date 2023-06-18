@@ -1,5 +1,5 @@
 import { createContext, useContext, useState } from "react";
-import Products from "../products.json";
+import products from "../products.json";
 
 const ProductContext = createContext();
 
@@ -17,7 +17,7 @@ const ProductProvider = (props) => {
     setTotal,
     cart,
     setCart,
-    Products,
+    products,
   };
 
   return (
