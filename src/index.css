@@ -94,3 +94,18 @@
   align-items: center;
   justify-content: space-evenly;
 }
+
+.cart-empty-btn {
+  /* background-color: red; */
+  height: 30px;
+  margin-bottom: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-empty-btn button {
+  width: 90%;
+  height: 100%;
+  cursor: pointer;
+}

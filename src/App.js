@@ -13,7 +13,6 @@ const App = () => {
     }, 0);
 
     setTotal(result);
-    console.log(result);
   }, [cart]);
 
   return (

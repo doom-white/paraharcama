@@ -3,10 +3,10 @@ import CartItem from "./CartItem";
 import { useProduct } from "../context/ProductContext";
 
 const Cart = () => {
-  const { cart, total, setTotal } = useProduct();
+  const { cart, total, setCart } = useProduct();
 
   const clearCart = () => {
-    setTotal([]);
+    setCart([]);
   };
 
   return (
@@ -17,7 +17,7 @@ const Cart = () => {
         </button>
       </div>
       {cart.map((c) => (
-        <CartItem key={c.id} cart={c} setTotal={setTotal} />
+        <CartItem key={c.id} cart={c} />
       ))}
 
       <div className="total-price">$ {total.toFixed(2)}</div>
