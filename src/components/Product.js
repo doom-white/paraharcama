@@ -42,7 +42,7 @@ const Product = ({ product }) => {
         <span
           style={{ marginRight: "5px", marginLeft: "5px", color: "crimson" }}
         >
-          {product?.amount || 0}
+          {cartItem?.amount || 0}
         </span>
         <button
           disabled={money - total < product.price || money - total === 0}
